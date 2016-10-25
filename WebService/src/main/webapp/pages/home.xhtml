@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<f:view>
+<h:head>
+<style type="text/css">
+   .ui-widget,
+   .ui-widget .ui-widget {font-size: 11px !important;}
+   .ui-layout-north {z-index:20 !important; overflow:visible !important; width:99.3%}
+   .ui-layout-north .ui-layout-unit-content {overflow:visible !important;width:99.9%}
+ </style>
+ 
+ <title><h:outputText value="Lumbini Mailer"></h:outputText></title>
+<f:facet name="last">
+<link href="${request.contextPath}/css/style.css" rel="stylesheet"/>
+<link rel="stylesheet" href="../../css/style.css" />
+</f:facet>
+
+</h:head>
+<body>
+<p:layout fullPage="true">
+    <p:layoutUnit position="center" resizable="false" closable="false" collapsible="false">
+     <h:form id="mailFormId">
+     <div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<table width="100%">
+			   <tr>
+				 <td align="right" width="15%">
+			 		Employee Details
+				 </td>
+			   </tr>
+			</table>
+		</div>
+	</div>	
+	<div id="page">
+	 <table width="100%" style="margin:0px 0px 0px 10px">
+	   <tr height="40px">
+     	 <td colspan="2" align="center" valign="bottom">
+     	    <p:commandButton value="Load Employee" actionListener="#{employeeBean.loadEmployee}" update=":mailFormId"></p:commandButton>
+     	 </td>
+     	</tr> 
+     	<tr>
+        <td align="left" valign="top"> 
+        
+     	  </td>
+     	</tr>
+     </table>
+    
+	</div>
+	<div id="page-bottom">	
+		Copyright (c): &nbsp;&nbsp;<a href="http://www.lumbini.in" target="_blank">Lumbini Software Pvt Ltd</a>	
+			
+	</div>
+</div>
+<div id="footer">
+
+</div>
+     
+     
+     </h:form>     
+    </p:layoutUnit>
+
+</p:layout>
+</body>
+</f:view>
+</html>

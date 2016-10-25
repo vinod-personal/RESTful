@@ -1,0 +1,473 @@
+/*
+Design by Lumbini Innovations Pvt Ltd
+http://www.ilumbini.com
+Name       : T-01
+Description: A two-column, fixed-width design with a bright color scheme.
+Version    : 1.0
+Released   : 29-05-2013
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #0F8C8C;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-size: 11.5pt;
+	color: #000000;
+	line-height: 1.75em;
+	background: #E0DCDC url(../images/img01.gif) repeat-x top left;
+}
+
+body,input {
+	font-family: Georgia, serif;
+}
+
+strong {
+	color: #2C2B2B;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+h1,h2,h3,h4 {
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+h2 {
+	font-size: 2.25em;
+}
+
+h2,h3,h4 {
+	color: #2C2B2B;
+	margin-bottom: 1em;
+}
+
+h3 {
+	font-size: 1.75em;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+img.alignleft {
+	margin: 5px 20px 20px 0;
+	float: left;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+
+img.pic {
+	padding: 5px;
+	border: solid 1px #D4D4D4;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+ul h4 {
+	margin-bottom: 0.35em;
+}
+
+.box {
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+
+.date {
+	background: #6E6E6E;
+	padding: 5px 6px 5px 6px;
+	margin: 0 6px 0 0;
+	color: #FFFFFF;
+	font-size: 0.8em;
+	border-radius: 2px;
+}
+
+#content {
+	width: 665px;
+	float: left;
+	padding: 0;
+}
+
+#content-box1 {
+	width: 420px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border:1px solid #E3E4EB;
+	background:rgba(245,2246,247,0.4);
+	-webkit-box-shadow: #E3E3E3 9px 9px 9px;
+	-moz-box-shadow: #E3E3E3 9px 9px 9px; 
+	box-shadow: #E3E3E3 9px 9px 9px;
+	float: left;
+}
+.contentP
+{
+ margin:-13px 15px 15px 15px;
+}
+#content-box2 {
+	margin: -40px 0 0 345px;
+	border: solid 2px #D4D4D4;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background:#EEEEEE;
+	min-height:300px;
+	width: 320px;
+}
+
+#footer {
+	margin: 0px 0 0px 0;
+	text-align: center;
+	color: #8C8B8B;
+	text-shadow: 0 1px 0 #FFFFFF;
+	font-size:11px;
+}
+
+#footer a {
+	color: #8C8B8B;
+}
+
+#header {
+	height: 15px;
+	position: relative;
+	background: #515151 ;
+	padding: 20px;
+	color: #000000;
+	width: 936px;
+	border: solid 1px #7E7E7E;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	overflow: hidden;
+}
+
+#logo {	
+	position: absolute;
+	top: 15px;
+	left: 45px;
+	font-size: 16px;
+	font-weight: bold;
+	color:#FFFFFF;
+	width:888px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+	text-shadow: 0 1px 1px #3E3E3E;
+}
+
+#logo h1 {
+	font-size: 1.35em;
+}
+
+#slogan {
+	padding: 5px 0 0 0;
+	position: absolute;
+	right: 45px;
+	top: 15px;
+}
+
+#slogan h2 {
+	color: #BEBEBE;
+	font-size: 1.25em;
+	text-shadow: 0 1px 1px #3E3E3E;
+}
+
+#page {
+	padding: 0px 45px 5px 45px;
+	position: relative;
+	width: 890px;
+	margin: 20px 0px 0px 0px;
+	height:100%;
+	min-height:400px;
+	color:#2E4565;
+	font-size:14px;
+	font-weight: bold;
+}
+
+#page .section-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+#page .section-list li {
+	clear: both;
+	padding: 30px 0 30px 0;
+}
+
+#page ul {
+	list-style: none;
+}
+
+#page ul li {
+	border-top: dotted 1px #C4C4C4;
+	padding: 15px 0 15px 0;
+}
+
+#page ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#page-bottom {
+	position: relative;
+	margin-top: 10px;
+	background: #6E6E6E ;
+	border: solid 1px #7E7E7E;
+	width: 888px;
+	padding: 1px 45px 0 45px;
+	color: #DCDCDC;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-shadow: 0 1px 1px #444444;	
+	text-align: center;
+	font-size:12px;
+}
+
+#page-bottom a {
+	color: #F5F5F5;
+}
+
+#page-bottom h2, #page-bottom h3, #page-bottom h4 {
+	color: #FFFFFF;
+}
+
+#page-bottom ul {
+	list-style: none;
+}
+
+#page-bottom ul li {
+	border-top: dotted 1px #8F8F8F;
+	padding: 15px 0 15px 0;
+}
+
+#page-bottom ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#page-bottom-content {
+	width: 665px;
+	float: left;
+}
+
+#page-bottom-sidebar {
+	width: 200px;
+	margin: 0 0 0 690px;
+}
+
+#search input.form-submit {
+	margin-left: 1em;
+	color: #FFFFFF;
+	padding: 10px;
+	background: #2FACAC;
+	border: 0;
+}
+
+#search input.form-text {
+	border: solid 1px #8F8F8F;
+	padding: 10px;
+}
+
+#sidebar {
+	position:relative;
+	width: 460px;
+	padding: 0;	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border:1px solid #E3E4EB;
+	background:rgba(245,2246,247,0.4);
+	-webkit-box-shadow: #E3E3E3 9px 9px 9px;
+	-moz-box-shadow: #E3E3E3 9px 9px 9px; 
+	box-shadow: #E3E3E3 9px 9px 9px;
+	min-height:300px;
+}
+
+#slider {
+	position: relative;
+	margin: 5px 45px 0px 45px;
+	width: 888px;
+}
+
+#slider .viewer {
+	width: 888px;
+	height: 170px;
+	border: solid 1px #D4D4D4;
+	border-radius: 3px;
+}
+
+#slider .slide {
+	width: 888px;
+	height: 170px;
+	padding: 4px 0px 4px 0px;
+}
+
+#slider .indicator {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	margin: 2px 0 0 0;
+}
+
+#slider .indicator span {
+	display: inline-block;
+	text-indent: -9999em;
+	width: 12px;
+	height: 12px;
+	background: #E3DFDF;
+	border-radius: 6px;
+	margin: 0 2px 0 2px;
+}
+
+#slider .indicator span.active {
+	background: #6E6E6E;
+}
+#slider-image
+{
+height:160px;
+width:888px;
+}
+#wrapper {
+	position: relative;
+	width: 980px;
+	margin: 18px auto 0 auto;
+	background: #F1F2F3;
+	border-radius: 6px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+}
+
+
+/* Menu CSS */ 
+
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a{
+	
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+	font-family: 'Capriola', sans-serif;
+	
+}
+
+#cssmenu:before, #cssmenu:after, #cssmenu > ul:before, #cssmenu > ul:after {
+
+	content: '';
+	display: table;
+	
+}
+
+
+#cssmenu:after, #cssmenu > ul:after {
+
+	clear: both;
+	
+}
+
+#cssmenu {
+
+	zoom:1;
+	height: 69px;
+	background: url(../images/bottom-bg.png) repeat-x center bottom;
+	border-radius: 2px;
+	
+}
+
+#cssmenu ul{
+
+	background: url(../images/nav-bg.png) repeat-x 0px 4px;
+	height: 69px;
+	
+}
+
+#cssmenu ul li{
+
+	float: left;
+	list-style: none;
+	
+}
+
+#cssmenu ul li a{
+	
+	display: block;
+	height: 37px;
+	padding: 22px 30px 0;
+	margin: 4px 2px 0;
+	border-radius: 2px 2px 0 0;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .75);
+	font-weight: 400;
+	opacity: .9;
+	
+}
+
+#cssmenu ul li:first-child a{
+	
+	margin: 4px 2px 0 0;
+	
+}
+
+#cssmenu ul li a:hover, #cssmenu ul li.active a{
+	
+	background: url('../images/color.png') center bottom;
+	display: block;
+	height: 37px;
+	margin-top: 0px;
+	padding-top: 26px;
+	color: #616161;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .35);
+	opacity: 1;
+	
+}
+#topStructure
+{
+	Background:#999999;
+	height:20px;
+	border: solid 2px :#616161;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-bottom:21px;
+
+}
+
+#newbox1
+{
+width:400px;height:300px;-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;border:1px solid #D3E4EB;background:rgba(211,228,235,0.4);-webkit-box-shadow: #B3B3B3 9px 9px 9px;-moz-box-shadow: #B3B3B3 9px 9px 9px; box-shadow: #B3B3B3 9px 9px 9px;
+}
+
+#label
+{
+  font-size:14px;
+  font-weight:bold;
+}
+#footer-menu
+{
+	color: #DCDCDC;
+	font-size:13px;
+	text-align:center;
+}
