@@ -26,7 +26,7 @@ public class DBConnection {
 			Class.forName(driver_class);
 			conn=DriverManager.getConnection(url,username,password);  
 		}catch(Exception e){
-			e.printStackTrace();
+			e.printStackTrace();  
 		}
 		return conn;
 	}
