@@ -24,7 +24,7 @@ public class DBConnection {
 		Statement stat=null;
 		try{
 			Class.forName(driver_class);
-			conn=DriverManager.getConnection(url,username,password);
+			conn=DriverManager.getConnection(url,username,password);  
 		}catch(Exception e){
 			e.printStackTrace();
 		}
